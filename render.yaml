@@ -1,0 +1,11 @@
+services:
+  - type: static
+    name: fubotics-zhh
+    env: static
+    rootDir: web
+    buildCommand: npm install && npm run build
+    publishDir: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
