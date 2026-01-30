@@ -5,13 +5,9 @@ import {
   ShieldCheck,
   Settings,
   Activity,
-  ChevronRight,
   Phone,
   Mail,
-  MapPin,
   ArrowRight,
-  ClipboardCheck,
-  Zap,
   CheckCircle2
 } from 'lucide-react';
 
